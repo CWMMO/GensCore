@@ -4,6 +4,11 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public final class GensCore extends JavaPlugin {
 
+    public static GensCore INSTANCE;
+    File dataF = new File(getDataFolder(), "data");
+    public File getdataF(){ return dataF; }
+
+    @SuppressWarnings("ResultOfMethodCallIgnored")
     @Override
     public void onEnable() {
         INSTANCE = this;
