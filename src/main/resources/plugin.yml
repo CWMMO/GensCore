@@ -1,0 +1,7 @@
+name: GensCore
+version: '1.0'
+main: com.cwmmo.gensCore.GensCore
+api-version: '1.21'
+prefix: SkCWMMO
+authors: [ CorruptedWinters ]
+description: Made with love :3
