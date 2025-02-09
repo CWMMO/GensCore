@@ -2,6 +2,8 @@ package com.cwmmo.gensCore;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.io.File;
+
 public final class GensCore extends JavaPlugin {
 
     public static GensCore INSTANCE;
