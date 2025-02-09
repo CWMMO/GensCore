@@ -6,8 +6,11 @@ public final class GensCore extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        INSTANCE = this;
+        if (!getDataFolder().exists())
+            getDataFolder().mkdirs();
+        if(!dataF.exists())
+            dataF.mkdirs();
     }
 
     @Override
